@@ -1,20 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export class PrivateHome extends Component {
+const PrivateHome = () => (
+  <div>
+    <p>Hellow world</p>
+    <p>by : PrivateHome page</p>
+  </div>
+);
 
-  constructor(props) {
-    super(props);
-
-    this.state = {
-
-    }
-  }
-  render() {
-    return (
-      <div>
-        <p>Hellow world</p>
-        <p>by : PrivateHome page</p>
-      </div>
-    )
-  }
-}
+export default PrivateHome;
